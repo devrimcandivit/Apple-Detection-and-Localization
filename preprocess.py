@@ -12,9 +12,9 @@ import os
 # --- AYARLAR ---
 SOURCE = "./kaynak_veriler"      # Ham verilerin bulunduğu klasör
 DEST = "./data/train"            # Preprocess sonrası verilerin gideceği klasör
-POINTS = 4096                      # Her pakette kaç tane nokta olacak
-BLOCK_SIZE = 1.5                   # Kesici bıçağın boyutu (1.5 metre x 1.5 metre)
-STRIDE = 0.5                       # Bıçağı her kesimden sonra ne kadar kaydıracağız?
+POINTS = 4096                    # Her pakette kaç tane nokta olacak
+BLOCK_SIZE = 1.5                 # Kesici boyutu (1.5 metre x 1.5 metre)
+STRIDE = 0.5                     # Her kesimden sonra ne kadar kaydıracağız?
 
 # Dosya -> Etiket (0:Arkaplan, 1:Elma)
 FILES = {
